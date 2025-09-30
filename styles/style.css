@@ -10,9 +10,9 @@
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-family: "Playfair Display", serif;
+  background: #fff;
 }
 img {
   display: flex;
@@ -27,3 +27,38 @@ ul,
 li {
   list-style: none;
 }
+
+.container {
+  max-width: 1110px;
+  margin-inline: auto;
+  width: 80%;
+}
+
+/* Navbar styles start from here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  border: 1px solid black;
+}
+.nav-links {
+  display: flex;
+  gap: 50px;
+  padding: 12px;
+  border: 1px solid green;
+}
+.nav-links li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  line-height: 23px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #2d2f30;
+}
+.search-icon i {
+  font-size: 1.5rem;
+  color: #2d2f30;
+}
+/* Navbar styles end here */

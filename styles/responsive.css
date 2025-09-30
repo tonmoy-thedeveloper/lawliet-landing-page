@@ -1,3 +1,11 @@
 /* Mobile Device Responsive */
 @media screen and (max-width: 576px) {
+  /* Navbar responsiveness start from here */
+  header nav {
+    padding: 16px 0;
+  }
+  nav .nav-links {
+    display: none;
+  }
+  /* Navbar responsiveness end here */
 }
