@@ -10,8 +10,6 @@
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-family: "Playfair Display", serif;
   background: #fff;
 }
 img {
@@ -35,18 +33,22 @@ li {
 }
 
 /* Navbar styles start from here */
+header {
+  /* z-index: 1; */
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 0px 20px 0 #e6c9c9;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px 0;
-  border: 1px solid black;
 }
 .nav-links {
   display: flex;
   gap: 50px;
   padding: 12px;
-  border: 1px solid green;
 }
 .nav-links li a {
   font-family: "Poppins", sans-serif;
@@ -62,3 +64,50 @@ nav {
   color: #2d2f30;
 }
 /* Navbar styles end here */
+
+/* Hero Area styles start from here */
+#hero-area {
+  background: #f9f8f9;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-content .hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1.5px;
+  color: #094b72;
+}
+.hero-content .hero-description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #4f4f4f;
+  margin: 32px 0;
+}
+.btn-primary {
+  padding: 28px 36px;
+  border-radius: 8px;
+  background: #094b72;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f9f8f9;
+  line-height: 140%;
+  border: none;
+  letter-spacing: 1.25px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.btn-primary:hover {
+  background: #358cbe;
+  box-shadow: 0 0 20px 0 #999;
+  transform: translateY(-4px);
+}
+/* Hero Area styles end here */

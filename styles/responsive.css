@@ -8,4 +8,26 @@
     display: none;
   }
   /* Navbar responsiveness end here */
+
+  /* Hero Section start from here */
+  #hero-area .hero-container {
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    margin: 24px auto;
+  }
+  #hero-area .hero-container .hero-title {
+    font-size: 2.25rem;
+  }
+  #hero-area .hero-container .hero-description {
+    font-size: 1rem;
+    margin: 15px 0;
+  }
+  main .btn-primary {
+    padding: 16px 32px;
+  }
+  main .hero-image img {
+    width: 100%;
+  }
+  /* Hero Section end here */
 }
