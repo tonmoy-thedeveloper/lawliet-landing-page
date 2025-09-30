@@ -30,4 +30,25 @@
     width: 100%;
   }
   /* Hero Section end here */
+
+  /* About section responsive start from here */
+  #about {
+    margin: 50px auto;
+    flex-direction: column;
+    gap: 25px;
+  }
+  #about .about-con-left {
+    text-align: center;
+  }
+  #about .section-title {
+    font-size: 1.5rem;
+  }
+  #about .about-con-left p {
+    font-size: 1rem;
+    margin-top: 12px;
+  }
+  #about .about-con-right {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* About section responsive end here */
 }

@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 img {
   display: flex;
@@ -111,3 +112,54 @@ nav {
   transform: translateY(-4px);
 }
 /* Hero Area styles end here */
+
+/* About us section styles start from here */
+#about {
+  margin: 100px auto;
+  display: flex;
+  gap: 50px;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.325px;
+  color: #2d2f30;
+  font-family: "Playfair Display", serif;
+}
+.about-con-left p {
+  color: #8b8c8c;
+  font-size: 1.25rem;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+.about-con-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.about-con-right .card {
+  padding: 24px;
+  background: #fcfcfc;
+  /* border: 1px solid black; */
+  box-shadow: 0 18px 58px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.card .card-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+  color: #363940;
+  margin: 16px 0 10px 0;
+  font-family: "Playfair Display", serif;
+}
+.card .card-description {
+  color: #8b8c8c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+/* About us section styles end here */
