@@ -98,4 +98,25 @@
     width: 100%;
   }
   /* CTA section responsive end here */
+
+  /* Footer responsive end here */
+  footer .footer-container {
+    flex-direction: column;
+    gap: 32px;
+  }
+  footer .footer-container .footer-links {
+    flex-direction: column;
+    gap: 16px;
+  }
+  footer .footer-container .footer-links .footer-title {
+    margin-bottom: 20px;
+  }
+  /* Footer responsive start from here */
+
+  /* Copyright responsive start from here */
+  .copyright .container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  /* Copyright responsive end here */
 }
