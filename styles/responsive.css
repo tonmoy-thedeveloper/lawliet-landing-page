@@ -42,7 +42,8 @@
   }
   #about .section-title,
   #achievement .section-title,
-  #testimonials .section-title {
+  #testimonials .section-title,
+  #cta .section-title {
     font-size: 1.5rem;
   }
   #about .about-con-left p {
@@ -80,4 +81,21 @@
     margin-top: 24px;
   }
   /* Testimonials section responsive end here */
+
+  /* CTA section responsive start from here */
+
+  main #cta {
+    flex-direction: column;
+    gap: 17px;
+  }
+  main #cta .cta-content p {
+    font-size: 1rem;
+  }
+  main #cta .cta-content button {
+    font-size: 1rem;
+  }
+  main #cta .cta-img img {
+    width: 100%;
+  }
+  /* CTA section responsive end here */
 }

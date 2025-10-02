@@ -258,3 +258,32 @@ nav {
   line-height: 170%;
 }
 /* Testimonials section styles end here */
+
+/* CTA section styles start from here */
+#cta {
+  display: flex;
+  gap: 34px;
+  align-items: center;
+}
+.cta-content p {
+  color: #4f4f4f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  margin: 14px 0 8px 0;
+}
+.cta-content button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #f9f8f9;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 160%;
+  padding: 14px 36px;
+  letter-spacing: 0.5px;
+}
+/* CTA section styles end here */
