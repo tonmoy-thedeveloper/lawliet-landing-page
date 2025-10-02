@@ -40,7 +40,8 @@
   #about .about-con-left {
     text-align: center;
   }
-  #about .section-title {
+  #about .section-title,
+  #achievement .section-title {
     font-size: 1.5rem;
   }
   #about .about-con-left p {
@@ -51,4 +52,20 @@
     grid-template-columns: repeat(1, 1fr);
   }
   /* About section responsive end here */
+
+  /* Achievement section responsive start from here */
+
+  main #achievement {
+    padding: 25px 0;
+  }
+  main #achievement .sub-heading {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+  main #achievement .achievement-number {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 24px;
+  }
+  /* Achievement section responsive end here */
 }
