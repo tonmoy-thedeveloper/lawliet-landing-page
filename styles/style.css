@@ -202,5 +202,59 @@ nav {
   line-height: 32px;
   letter-spacing: 0.3px;
 }
-
 /* Achievement section styles end here */
+
+/* Testimonials section styles start from here */
+
+#testimonials {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 50px 0;
+}
+.test-item-container {
+  margin-top: 48px;
+  display: flex;
+  gap: 30px;
+  text-align: left;
+}
+.test-item {
+  border-radius: 10px;
+  background: #fff;
+  padding: 32px;
+  box-shadow: 0 10px 20px 0 rgba(41, 41, 42, 0.07);
+}
+.test-item h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #151617;
+  margin-bottom: 8px;
+}
+.test-item p {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.client {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.client-content .client-name {
+  color: #151617;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 155%;
+}
+.client-content p {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 170%;
+}
+/* Testimonials section styles end here */

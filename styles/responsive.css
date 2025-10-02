@@ -41,7 +41,8 @@
     text-align: center;
   }
   #about .section-title,
-  #achievement .section-title {
+  #achievement .section-title,
+  #testimonials .section-title {
     font-size: 1.5rem;
   }
   #about .about-con-left p {
@@ -68,4 +69,15 @@
     margin-top: 24px;
   }
   /* Achievement section responsive end here */
+
+  /* Testimonials section responsive start from here */
+  main #testimonials {
+    padding: 25px 0;
+  }
+  main #testimonials .test-item-container {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+  }
+  /* Testimonials section responsive end here */
 }
